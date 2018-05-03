@@ -1,0 +1,10 @@
+In this lab you will implement the dynamic programming algorithm to compute the edit distance between two strings, as given in Section 6.3.
+Your program should input two strings XX and YY and print the edit distance between them, as well as the alignment of the two strings.
+For example, given XX = EXPONENTIAL and YY = POLYNOMIAL, the output should be:
+edit distance = 6
+alignment:
+EXPONEN-TIAL
+--POLYNOMIAL
+Report your output on the following strings:
+XX = 'CATAAGCTTCTGACTCTTACCTCCCTCTCTCCTACTCCTGCTCGCATCTGCTATAGTGGAGGCCGGAGCAGGAACAGGTTGAACAG'
+YY = 'CGTAGCTTTTTGGTTAATTCCTCCTTCAGGTTTGATGTTGGTAGCAAGCTATTTTGTTGAGGGTGCTGCTCAGGCTGGATGGA'
