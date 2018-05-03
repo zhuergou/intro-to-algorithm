@@ -1,0 +1,5 @@
+In this lab you will implement the linear time strongly connected components algorithm described in Sec 3.4.2, as described on page 94. Given a directed graph GG you first create the reverse graph GRGR in linear time. Next, you run the undirected connected components method from sec 3.2.3, processing the vertices in decreasing post order. You must make sure that both steps can be carried out in O(|V|+|E|)O(|V|+|E|) time. In more detail, carry out the following steps:
+Create GRGR
+Compute DFS interval on GRGR for each node
+Iteratively select the next unvisited node uu with highest post(u)post(u):
+For each such uu, use DFS on GG to visit all nodes reachable from uu and output this set as a connected component.
